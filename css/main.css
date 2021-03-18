@@ -1,4 +1,36 @@
-p
-{
-    color: pink;
+body {
+    background-image:url('css/font.jpg') ;
+}
+#bloc_page {
+    width: 500px;
+    margin: auto;
+}
+
+header {
+    background: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#titre_principal {
+   display: flex;
+   flex-direction: column;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+nav li {
+    margin-right: 50px;
+}
+nav a {
+    font-size: 1.4em;
+    color: black;
+    padding-bottom: 15px;
+    text-decoration: none;
+
+}
+nav a:hover {
+    color: blue;
+    border-bottom: solid blue;
 }
