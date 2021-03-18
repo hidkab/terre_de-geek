@@ -1,3 +1,4 @@
+/* partie body */
 body {
     background-image:url('css/font.jpg') ;
 }
@@ -6,6 +7,7 @@ body {
     margin: auto;
 }
 
+/* partie header */
 header {
     background: beige;
     display: flex;
@@ -16,6 +18,23 @@ header {
    display: flex;
    flex-direction: column;
 }
+#logo {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+#logo img {
+    width: 150px;
+    height: 150px;
+}
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.2em;
+    font-weight: bold;
+    margin: 15px 0 15px 100px;
+}
+
+/* partie nav */
 nav ul {
     list-style-type: none;
     display: flex;
@@ -25,7 +44,7 @@ nav li {
 }
 nav a {
     font-size: 1.4em;
-    color: black;
+    color: #080B16 ;
     padding-bottom: 15px;
     text-decoration: none;
 
@@ -33,4 +52,14 @@ nav a {
 nav a:hover {
     color: blue;
     border-bottom: solid blue;
+}
+
+/* partie footer  */
+footer {
+    display: flex;
+    background-color: cornflowerblue;
+}
+#categorie {
+    display: flex;
+    flex-direction: column;
 }
