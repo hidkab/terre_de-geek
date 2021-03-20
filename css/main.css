@@ -31,7 +31,9 @@ header h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3.2em;
     font-weight: bold;
-    margin: 15px 0 15px 100px;
+    position: relative; 
+    left: 80px;  
+    top: 15px; 
 }
 
 /* partie nav */
@@ -51,15 +53,36 @@ nav a {
 }
 nav a:hover {
     color: blue;
-    border-bottom: solid blue;
+    border-bottom: blue;
 }
 
 /* partie footer  */
 footer {
     display: flex;
-    background-color: cornflowerblue;
+    background-color: rgba(13, 13, 184, 0.4);
+    justify-content: space-around;
+    
 }
-#categorie {
-    display: flex;
-    flex-direction: column;
+
+/* liste a puces */
+footer ul {
+    list-style-type: none;
+}
+footer li {
+    padding: 10px 50px 10px 10px ;
+}
+footer h2 {
+    position: relative;
+    left: 45px;
+}
+footer p {
+    justify-content: space-between;
+}
+
+.icons {
+    width: 36px;
+    padding: 10px;
+    position: relative;
+    left: 30px;
+
 }
