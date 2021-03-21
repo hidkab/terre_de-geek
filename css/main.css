@@ -9,12 +9,10 @@ body {
 /* partie section */
 section {
     display: flex;
-    border: solid;
     margin: 15px 10px 15px 10px;
-    background: url('img/font_section');
+    background: rgba(233, 228, 228);
     flex-direction: column;
     padding: auto; 
-    border-radius:12 px ;
 }
 
 #telephonie {
@@ -22,6 +20,21 @@ section {
     margin: 20px 20px 20px 20px;
     height: 350px;
     text-align: center;
+    border-radius: 12px;
+}
+#informatique {
+    border:solid;
+    margin: 20px 20px 20px 20px;
+    height: 350px;
+    text-align: center;
+    border-radius: 12px;
+}
+#accessoirs {
+    border: solid;
+    margin: 20px 20px 20px 20px;
+    height: 300px;
+    text-align: center;
+    border-radius: 12px;
 }
 .img_telephonie {
     width: 20em;
@@ -41,20 +54,6 @@ section {
     border-radius: 6px;
     box-shadow: 3px 2px;
 }
-
-#informatique {
-    border:solid;
-    margin: 20px 20px 20px 20px;
-    height: 350px;
-    text-align: center;
-}
-#accessoirs {
-    border: solid;
-    margin: 20px 20px 20px 20px;
-    height: 300px;
-    text-align: center;
-}
-
 
 
 /* partie header */
