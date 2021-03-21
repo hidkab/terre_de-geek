@@ -3,16 +3,67 @@ body {
     background-image:url('css/font.jpg') ;
 }
 #bloc_page {
-    width: 500px;
+    width: 900px;
     margin: auto;
 }
+/* partie section */
+section {
+    display: flex;
+    border: solid;
+    margin: 15px 10px 15px 10px;
+    background: url('img/font_section');
+    flex-direction: column;
+    padding: auto; 
+    border-radius:12 px ;
+}
+
+#telephonie {
+    border: solid;
+    margin: 20px 20px 20px 20px;
+    height: 350px;
+    text-align: center;
+}
+.img_telephonie {
+    width: 20em;
+    height: 15em;
+    border-radius: 6px;
+    box-shadow: 3px 2px;
+}
+.img_informatique {
+    width: 20em;
+    height: 15em;
+    border-radius: 6px;
+    box-shadow: 3px 2px;
+}
+.img_accessoirs {
+    width: 25em;
+    height: 12em;
+    border-radius: 6px;
+    box-shadow: 3px 2px;
+}
+
+#informatique {
+    border:solid;
+    margin: 20px 20px 20px 20px;
+    height: 350px;
+    text-align: center;
+}
+#accessoirs {
+    border: solid;
+    margin: 20px 20px 20px 20px;
+    height: 300px;
+    text-align: center;
+}
+
+
 
 /* partie header */
 header {
-    background: beige;
+    background: rgba(192, 161, 121, 0.4);
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    border-radius: 10px;
 }
 #titre_principal {
    display: flex;
@@ -61,6 +112,7 @@ footer {
     display: flex;
     background-color: rgba(13, 13, 184, 0.4);
     justify-content: space-around;
+    border-radius: 12px;
     
 }
 
