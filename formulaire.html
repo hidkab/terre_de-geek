@@ -34,27 +34,40 @@
             </form>
           </div>
         </header>
-        
+        <hr>
         <section>
-          <div>
+
+          <div id="form">
+
             <h1>Formulaire de contact</h1>
+
             <form action="traitement.php">
-              <div>
+              <div class="padding">
                 <label for="name">Votre Nom :</label>
                 <input type="text" name="name" id="name" />
               </div>
-              <div>
-                <label for="email">Quel est votre e-mail ?</label>
+
+              <div class="padding">
+                <label for="email">E-mail :</label>
                 <input type="email" name="email" id="email" />
               </div>
-              <label for="object">Objet </label>
-              <input type="object" name="Object" id="object" />
-              <div>
-                
+
+              <div class="padding">
+                <label for="object">Objet :</label>
+                <input type="object" name="Object" id="object" />
               </div>
 
+              <div class="padding">
+                <label for="améliorer">
+                  Message:
+                </label> <br>
+                <textarea name="ameliorer" id="ameliorer" rows="10" cols="100">
+                </textarea>    
+              </div>
             </form>
+
           </div>
+
         </section>
           
         

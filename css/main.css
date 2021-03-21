@@ -135,5 +135,22 @@ footer p {
     padding: 10px;
     position: relative;
     left: 30px;
-
 }
+
+/* partie formulaire */
+
+#form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+section h1 {
+    font-size: 3em;
+}
+.padding {
+  margin: 10px;  
+} 
+
+
