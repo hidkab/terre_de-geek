@@ -87,6 +87,50 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /* -------------partie mobile------------------ */
+
+   /* header of page */
+   header {
+     background-color:peru;
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-end;
+     /* height: 25 vh; */
+   }
+   .logo {
+     background-color: blue;
+     width: 1vw;
+     height: 1vh;
+   }
+   
+   nav {
+     background-color: green;
+   }
+   header h1 {
+     background-color: red;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
