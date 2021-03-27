@@ -58,54 +58,48 @@
   
   <main>
 
-    <div>
+   <section>
+     <h2>Nos prestations</h2>
+   </section>
 
-      <h2>Formulaire de contact</h2>
+   <table>
 
-      <form action="traitement.php">
-        <div>
-          <label for="name">Votre Nom :</label> <br>
-          <input type="text" name="name" id="name" autofocus required maxlength="3" /> <!--limiter le nombre de caractères--> 
-        </div>
+     <thead>
+       <tr>
+         <th>Prestations</th>
+         <th>Tarifs</th>
+         <th>Nom de la personne en charge</th>
+       </tr>
+     </thead>
 
-        <div>
-          <label for="name">Votre Prénom :</label> <br>
-          <input type="text" name="name" id="name" minlength="2" required /> <!--limiter le nombre de caractères-->
-        </div>
-
-        <div>
-          <label for="tel">Votre Téléphone :</label> <br>
-          <input type="number" name="tel" id="tel" />
-        </div>
-
-        <div>
-          <label for="email">E-mail :</label> <br>
-          <input type="email" name="email" id="email" required pattern=".+@beststartupever.com" />
-        </div>
-
-        <div>
-          <label for="objet">Objet</label><br />
-          <select name="objet" id="objet">
-              <option value="information">Information</option>
-              <option value="réclamation">Réclamation</option>
-              <option value="partenariat">Partenariat</option>
-              <option value="autre">Autre</option>
-          </select>
-        </div>
-
-        <div>
-          <label for="améliorer"> Message: </label> <br>
-          <textarea name="ameliorer" id="ameliorer" rows="10" cols="100">
-          </textarea>    
-        </div>
-
-        <div>
-          <label for="submit"></label>
-          <input type="submit" name="submit" id="submit">
-        </div>
-      </form>
-
-    </div>
+     <tbody>
+       <tr>
+         <td>Réparation smartphones</td>
+         <td>Entre 50 à 100 euros</td>
+         <td>DUPONT David</td>
+       </tr>
+       <tr>
+        <td>Réparation tablettes</td>
+        <td>Entre 30 à 80 euros </td>
+        <td>DUPONT David</td>
+      </tr>
+      <tr>
+        <td>Réparation ordinateurs</td>
+        <td>Entre 60 à 200 euros</td>
+        <td>DUPONT David</td>
+      </tr>
+      <tr>
+        <td>Commandes spéciales</td>
+        <td>Avec un supliment de 50 euros</td>
+        <td>DUPONT David</td>
+      </tr>
+      <tr>
+        <td>Impression 3D</td>
+        <td>Petit model 45 euros , autres 90 euros</td>
+        <td>DUPONT David</td>
+      </tr>
+     </tbody>
+   </table>
     
   </main>
 
