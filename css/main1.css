@@ -1,0 +1,160 @@
+/* partie body */
+body {
+    background-image:url('css/font.jpg') ;
+}
+#bloc_page {
+    width: 900px;
+    margin: auto;
+}
+/* partie section */
+section {
+    display: flex;
+    margin: 15px 10px 15px 10px;
+    background: rgba(233, 228, 228);
+    flex-direction: column;
+    padding: auto; 
+}
+
+#telephonie {
+    border: solid;
+    margin: 20px 20px 20px 20px;
+    height: 350px;
+    text-align: center;
+    border-radius: 12px;
+}
+#informatique {
+    border:solid;
+    margin: 20px 20px 20px 20px;
+    height: 350px;
+    text-align: center;
+    border-radius: 12px;
+}
+#accessoirs {
+    border: solid;
+    margin: 20px 20px 20px 20px;
+    height: 300px;
+    text-align: center;
+    border-radius: 12px;
+}
+.img_telephonie {
+    width: 20em;
+    height: 15em;
+    border-radius: 6px;
+    box-shadow: 3px 2px;
+}
+.img_informatique {
+    width: 20em;
+    height: 15em;
+    border-radius: 6px;
+    box-shadow: 3px 2px;
+}
+.img_accessoirs {
+    width: 25em;
+    height: 12em;
+    border-radius: 6px;
+    box-shadow: 3px 2px;
+}
+
+
+/* partie header */
+header {
+    background: rgba(192, 161, 121, 0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-radius: 10px;
+}
+#titre_principal {
+   display: flex;
+   flex-direction: column;
+}
+#logo {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+#logo img {
+    width: 150px;
+    height: 150px;
+}
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.2em;
+    font-weight: bold;
+    position: relative; 
+    left: 80px;  
+    top: 15px; 
+}
+
+/* partie nav */
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+nav li {
+    margin-right: 50px;
+}
+nav a {
+    font-size: 1.4em;
+    color: #080B16 ;
+    padding-bottom: 15px;
+    text-decoration: none;
+
+}
+nav a:hover {
+    color: blue;
+    border-bottom: blue;
+}
+
+/* partie footer  */
+footer {
+    display: flex;
+    background-color: rgba(13, 13, 184, 0.4);
+    justify-content: space-around;
+    border-radius: 12px;
+    
+}
+
+/* liste a puces */
+footer ul {
+    list-style-type: none;
+}
+footer li {
+    padding: 10px 50px 10px 10px ;
+}
+footer h2 {
+    position: relative;
+    left: 45px;
+}
+footer p {
+    justify-content: space-between;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}
+footer a:hover {
+    color: blue;
+}
+.icons {
+    width: 36px;
+    padding: 10px;
+    position: relative;
+    left: 30px;
+}
+
+/* partie formulaire */
+
+#form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+section h1 {
+    font-size: 3em;
+}
+.padding {
+  margin: 10px;  
+} 
