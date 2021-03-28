@@ -122,7 +122,7 @@
      .footerBg {
        background-color: #71B48D;
      }
-     /* version mobile */
+     /*  mobile version*/
 
      /* code nav */
      nav {
@@ -186,7 +186,7 @@
       padding: 1em 0 1em 0;
     }
 
-    /* footer */
+    /* code footer */
     footer { 
       display: flex;
       flex-direction: column;
@@ -202,7 +202,7 @@
       width: 2.2em;
       height: 2.2em;
     }
-    /* tablette */
+    /* pad version */
 
     @media screen and (min-width: 768px) {
       /* code nav */
@@ -214,10 +214,8 @@
        }
 
       /* code haeder */
-      
       header {
         height: 15vh;
-      }
       }
       h1 {
         position: relative;
@@ -228,6 +226,11 @@
         position: relative;
         left: 5.5em;
       }
+    }
+
+    /* desktop version */
+    @media screen and (min-width: 768px){
+
     }
   
      
