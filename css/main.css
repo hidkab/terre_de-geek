@@ -229,7 +229,48 @@
     }
 
     /* desktop version */
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 1024px){
+      /* code header */
+      nav {
+        height: 10vh;
+      }
+      header {
+        display: flex;
+        height: 20vh;
+    
+      }
+      .logo {
+        align-self: center;
+      }
+      .sec_header {
+        position: relative;
+        left: 15em;
+        top: 1em;
+        
+      }
+
+      /* code main */
+      .container {
+        display: flex;
+        /* height: 50vh; */
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+        
+
+      }
+      .ph_cmp {
+        display: flex;
+        justify-content: space-around;
+      }
+      
+      /* code footer */
+      footer {
+        display: flex;
+        /* height: 20vh; */
+        flex-direction: row;
+        justify-content: space-between;
+      }
 
     }
   
