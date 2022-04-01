@@ -91,7 +91,6 @@
      
      .bg-header {
       background-color: #a15c38;
-      
      }
      .bg-nav {
        background-color: #262220;
@@ -116,7 +115,6 @@
      .btn-active:active {
       transform: scale(1.2);
     }
-
      nav {
        height: 10vh;
      }
@@ -222,6 +220,7 @@
        text-align: center;
        width: 22rem;
        height: 30rem;
+       box-shadow: 0 0.5rem 0.5rem 0 rgb(104, 98, 98);
      }
      article:hover {
        transform: scale(1.12);
@@ -340,12 +339,8 @@
     /* first mobile */
     /* home page */
 
-    @media only screen and (max-width: 391px) {
+    @media only screen and (max-width: 769px) {
       /* header */
-      .bg-header {
-        background-color: aliceblue;
-        max-width: 100%;
-      }
       .logo {
         display: none;
       }
@@ -368,10 +363,11 @@
        justify-content: center;
       }
       /* nav */
-      nav ul {
-        text-align: center;
+      nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
-      /* footer */
       footer {
          display: flex;
          flex-direction: column;
@@ -388,13 +384,12 @@
         flex-direction: column;
       }
       article {
-        width: 15rem;
-        margin-bottom: 2.3rem;
-        box-shadow: 1rem red;
-       height: 48vh;
+        width: 86%;
+        margin-bottom: 3rem;
+        height: auto;
       }
-      .size-img {
-        height: 6.5rem;
+      button {
+        margin-bottom: 1rem;
       }
       /* contact */
        input {
@@ -419,6 +414,63 @@
         width: 84%;
         height: auto;
         margin: auto;
+      }
+    }
+
+    /* pad */
+    @media only screen and (min-width: 769px) and (max-width: 979px) {
+      /* header */
+      .bg-header {
+        background-color: red;
+      }
+      .logo {
+        width: 15%;
+        height: auto;
+      }
+      .text-header {
+        font-size: 1.2rem;
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+      }
+
+      /* home page */
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      article {
+        margin: 0 1.5rem 3rem 1.2rem;
+        width: 90%;
+        height: auto;
+      }
+      button {
+        margin-bottom: 1rem;
+      }
+      /* about page */
+      .containt-about {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+      }
+      .video {
+        width: 50%;
+      }
+      .text-about {
+        width: 45%;
+        height: auto;
+      }
+    }
+    @media only screen and (min-width: 980px) and (max-width: 1025px){
+      .bg-header {
+        background-color: #fff;
+      }
+      article {
+        width: 30%;
+      }
+      button {
+        margin-top: 1.2rem;
       }
 
     }
