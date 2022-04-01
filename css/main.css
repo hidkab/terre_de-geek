@@ -114,17 +114,9 @@
       color: #a15c38;
      }
      .btn-active:active {
-      /* position: relative;
-      top: 0.2rem;
-      left: 0.2rem;
-      right: 0.2rem;
-      padding: 0.2rem 0.1rem 0.1rem 0; */
       transform: scale(1.2);
     }
 
-     /* header {
-       height: 100%;
-     } */
      nav {
        height: 10vh;
      }
@@ -175,6 +167,11 @@
      }
      nav ul li {
        margin: 1.5rem 2rem 0 0;
+     }
+     nav ul li a:hover {
+       background-color: rgb(17, 16, 16, 0.5);
+       border-radius: 2rem;
+       box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem;
      }
 
      /* .....footer..... */
@@ -363,16 +360,13 @@
         font-size: 1.1rem;
         color: black;
       }
-      .mobile {
-        text-align: center;
-      }
-      .footer {
-      color: #fff;
+      footer {
+       height: 25vh;
        display: flex;
        flex-direction: column;
        align-items: center;
        justify-content: center;
-     }
+      }
       /* nav */
       nav ul {
         text-align: center;
@@ -389,8 +383,38 @@
          text-align: center;
        }
       /* main */
-
-
+      .container {
+        display: flex;
+        flex-direction: column;
+      }
+      article {
+        width: 18rem;
+        margin-bottom: 2rem;
+      }
+      /* contact */
+       input {
+        width: 98%;
+        margin: auto;
+       }
+       .submit {
+         margin: auto;
+         width: 98%;
+       }
+       /* about */
+       .containt-about {
+        display: flex;
+        flex-direction: column;
+      }
+      .video {
+        width: 94%;
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+      .text-about {
+        width: 84%;
+        height: auto;
+        margin: auto;
+      }
 
     }
     
