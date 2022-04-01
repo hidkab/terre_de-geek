@@ -420,9 +420,6 @@
     /* pad */
     @media only screen and (min-width: 769px) and (max-width: 979px) {
       /* header */
-      .bg-header {
-        background-color: red;
-      }
       .logo {
         width: 15%;
         height: auto;
@@ -463,9 +460,7 @@
       }
     }
     @media only screen and (min-width: 980px) and (max-width: 1025px){
-      .bg-header {
-        background-color: #fff;
-      }
+      
       article {
         width: 30%;
       }
